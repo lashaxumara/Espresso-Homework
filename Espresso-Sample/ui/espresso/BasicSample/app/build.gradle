@@ -39,6 +39,8 @@ android {
             }
         }
     }
+    namespace 'com.example.android.testing.espresso.BasicSample'
+    testNamespace 'com.example.android.testing.espresso.BasicSample.test'
 }
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
